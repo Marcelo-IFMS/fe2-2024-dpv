@@ -11,16 +11,11 @@
   <body>
     <div class="container">
       <div id="menu">menu</div>
-      <p>Paragrafo</p>
-      <div class="menu">Menu</div>
     </div>
-
     <div class="container">Bem vindo a aula de Front End</div>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      $("#menu").html("Alterado a div id Menu");
-      $("p").html("Alterado o paragrafo");
-      $(".menu").html("Alterado a div class menu");
+      $("#menu").load("./components/menu.html");
     </script>
   </body>
 </html>
