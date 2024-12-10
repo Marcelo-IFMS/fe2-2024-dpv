@@ -6,3 +6,8 @@
     rgba(176, 195, 199, 1) 100%
   );
 }
+
+.text-justify {
+  text-align: justify;
+}
+.recuo { text-indent:4em }
